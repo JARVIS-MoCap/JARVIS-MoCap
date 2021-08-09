@@ -1,3 +1,5 @@
+![](Banner.png)
+
 # JARVIS - 3D markerless motion capture made easy
 JARVIS (Joint Acquisition, Recording and Voxel based Inference System) aims to make neural network based 3D markerless pose estimation easy. From calibrating your 
 camera system to muscoskeletal model fitting, we plan to provide easy to use software and hardware for every step along the way. 
