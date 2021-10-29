@@ -12,11 +12,8 @@ While there have been significant improvements to those methods both in terms of
 2D tracking. Setting up a system for multi camera 3D motion capture on the other hand still remains very challenging and time consuming.\
 JARVIS tries to change that by introducing an easy to use toolchain that was developed with highly precise 3D Tracking as the sole goal, not just an afterthought.\
 Our System consists of three parts:\
-- The **Acquisition Tool** lets you connect up to 16 cameras to a single computer and set them up for synchronised recordings within minutes. Its GPU accelerated online 
-  encoder allows it to save your videos already compressed, reducing the disk space for your recordings by a factor of 10.
+- The **Acquisition Tool** allows you to record synchronised videos from multiple views at hight FPS thanks to GPU accelerated online JPEG compression. If you use FLIR cameras you can get your system setup and running with just a handful of clicks.
 - The **Annotation Tool** leverages the fact that you record with multiple cameras at once by projecting your annotations in a subset of those cameras to 
   the remaining ones, significantly reducing the ammount of tedious manual annotations needed. It also provides easy-to-use interfaces for calibrating your cameras 
   and creating datasets.
-- The **HybridNet Pytorch Library** is our state of the art 3D pose estimation architecture. The 2D backbone allows easy loading of pretrained models regardless of 
-  camera count and gemotry, while the 3D tail is able to achieve incredibly robust and precise tracking by having access to the information from all camera perspectives at once. 
-  This hybrid architecture is faster to train, more precise and most importantly can run on siginficantly smaller dataset sizes than pure 3D CNNs, saving you countless hours of mind numbing annotations.
+- The **HybridNet Pytorch Library** is our state of the art 3D pose estimation architecture. Our hybrid 2D/3D CNN architecture is faster to train, more precise and most importantly can run on siginficantly smaller dataset sizes than pure 3D CNNs, saving you countless hours of mind numbing annotations while still achieving highly precise markerless motion capture - even in scenarios with heavy occlusion.
