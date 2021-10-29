@@ -4,7 +4,7 @@ JARVIS makes highly precise markerless 3D motion capture easy. All you need to g
 Our Toolbox will assist you on every step along the way, from recording synchronised videos, to quickly and precisely annotating your data, 
 all the way to the final 3D pose predictions.\
 If you are interested in setting up a 3D Motion Capture System or just want to learn more about our toolbox we strongly recommend having a look at our 
-Getting Started Guide. Here you'll find an overview of our workflow as well as tutorials to help you build a succesfull 3D traking pipeline with JARVIS.
+[Getting Started Guide](gettingstartd.md). Here you'll find an overview of our workflow as well as tutorials to help you build a succesfull 3D traking pipeline with JARVIS.
 
 ## Why JARVIS?
 Image based markerlerss motion capture has become an essential data analysis tool in many fields of research, pinoeered largely by DeepLabCut several years ago. 
