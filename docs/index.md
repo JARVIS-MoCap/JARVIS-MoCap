@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+---
+layout: home
+---
 
-You can use the [editor on GitHub](https://github.com/JARVIS-MoCap/Acquisition-Tool/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![Alt Text](media/banner_new_new.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+JARVIS makes highly precise markerless 3D motion capture easy. All you need to get started is a multi camera recording setup and an idea of what you want to track.
+Our Toolbox will assist you on every step along the way, from recording synchronised videos, to quickly and precisely annotating your data,
+all the way to the final 3D pose predictions.\
+If you are interested in setting up a 3D Motion Capture System or just want to learn more about our toolbox we strongly recommend having a look at our
+[Getting Started Guide](gettingstarted.md). Here you'll find an overview of our workflow as well as tutorials to help you build a succesfull 3D traking pipeline with JARVIS.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Why JARVIS?
+Image based markerlerss motion capture has become an essential data analysis tool in many fields of research, pinoeered largely by DeepLabCut several years ago.
+While there have been significant improvements to those methods both in terms of capabilities and usability, those advances mainly tackle single image based
+2D tracking. Setting up a system for multi camera 3D motion capture on the other hand still remains very challenging and time consuming.\
+JARVIS tries to change that by introducing an easy to use toolchain that was developed with highly precise 3D Tracking as the sole goal, not just an afterthought.\
+Our System consists of three parts:\
+- The <span style="color:#63a31f">**Acquisition Tool**</span>. allows you to record synchronised videos from multiple views at hight FPS thanks to GPU accelerated online JPEG compression. If you use FLIR cameras you can get your system setup and running with just a handful of clicks.
+- The <span style="color:#63a31f">**Annotation Tool**</span> leverages the fact that you record with multiple cameras at once by projecting your annotations in a subset of those cameras to
+  the remaining ones, significantly reducing the ammount of tedious manual annotations needed. It also provides easy-to-use interfaces for calibrating your cameras
+  and creating datasets.
+- The <span style="color:#63a31f">**HybridNet Pytorch Library**</span> is our state of the art 3D pose estimation architecture. Our hybrid 2D/3D CNN architecture is faster to train, more precise and most importantly can run on siginficantly smaller dataset sizes than pure 3D CNNs, saving you countless hours of mind numbing annotations while still achieving highly precise markerless motion capture - even in scenarios with heavy occlusion.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JARVIS-MoCap/Acquisition-Tool/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Alt Text](media/tesr.gif)
