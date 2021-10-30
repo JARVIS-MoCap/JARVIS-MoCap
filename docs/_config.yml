@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://jarvis-mocap.github.io/JARVIS-MoCap/'
+baseurl:          '/docs'
 rss:              RSS
 
 toc:
