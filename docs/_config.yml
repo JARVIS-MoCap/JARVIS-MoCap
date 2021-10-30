@@ -44,3 +44,5 @@ regenerate:       true
 
 plugins:
   - jemoji
+
+theme: jekyll-theme-cayman
