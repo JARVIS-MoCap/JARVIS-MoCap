@@ -1,10 +1,10 @@
 ![](J3D_d00a_02a.png)
 
 # JARVIS - 3D markerless motion capture made easy
-JARVIS (Joint Acquisition, Recording and Voxel based Inference System) aims to make neural network based 3D markerless pose estimation easy. From calibrating your 
-camera system to muscoskeletal model fitting, we plan to provide easy to use software and hardware for every step along the way. 
- - Our Acquisition Tool allows you to record synchronised videos from multiple views at hight FPS thanks to GPU accelerated online JPEG compression. 
- - The Annotation Tool is a convenient way to extract and annotate training sets for our state of the art 3D pose estimation network. 
- - Vortex is our voxel reprojection based tracking engine that enables highly precise markerless motion capture - even in scenarios with heavy occlusion
+**JARVIS** (Joint Acquisition, Recording and Voxel based Inference System) aims to make neural network based 3D markerless pose estimation easy. From calibrating your 
+camera system to final 3D predictions, we to provide easy to use software for every step along the way. 
+ - Our **[AcquisitionTool](https://github.com/JARVIS-MoCap/JARVIS-AcquisitionTool)** allows you to record synchronised videos from multiple views at hight FPS thanks to GPU accelerated online JPEG compression. 
+ - The **[AnnotationTool](https://github.com/JARVIS-MoCap/JARVIS-AnnotationTool)** is a convenient way to extract and annotate training sets for our state of the art 3D pose estimation network. 
+ - **[HybridNet](https://github.com/JARVIS-MoCap/JARVIS-HybridNet)** is our hybrid 2D- and 3D-CNN based network architecture that enables highly precise markerless motion capture - even in scenarios with heavy occlusion.
 
-This Project is currently still under developement and will be fully up and running in the next few months!
+Check out **[https://jarvis-mocap.github.io/jarvis-docs/](https://jarvis-mocap.github.io/jarvis-docs/)** for more information about designing a 3D motion capture setup and our **Getting Started Guide**.
