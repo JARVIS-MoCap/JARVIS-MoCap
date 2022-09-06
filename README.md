@@ -8,3 +8,9 @@ camera system to final 3D predictions, we to provide easy to use software for ev
  - **[HybridNet](https://github.com/JARVIS-MoCap/JARVIS-HybridNet)** is our hybrid 2D- and 3D-CNN based network architecture that enables **highly precise markerless motion capture** - even in scenarios with heavy occlusion and complex natural environments.
 
 Check out **[https://jarvis-mocap.github.io/jarvis-docs/](https://jarvis-mocap.github.io/jarvis-docs/)** for more information about designing a 3D motion capture setup and our **Getting Started Guide**.
+
+## Contact
+The toolbox was developed at the **Neurobiology Lab of the German Primate Center ([DPZ](https://www.dpz.eu/de/startseite.html))**.
+If you have any questions or other inquiries related to JARVIS please contact:
+
+Timo Hüser - [@hueser_timo](https://mobile.twitter.com/hueser_timo) - timo.hueser@gmail.com
