@@ -14,3 +14,7 @@ The toolbox was developed at the **Neurobiology Lab of the German Primate Center
 If you have any questions or other inquiries related to JARVIS please contact:
 
 Timo Hüser - [@hueser_timo](https://mobile.twitter.com/hueser_timo) - timo.hueser@gmail.com
+
+## License
+
+Distributed under LGPL. See `LICENSE.txt` for more information.
